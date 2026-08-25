@@ -1,0 +1,6 @@
+config/
+ai_workspace/
+diagnostics/
+*.secret
+*.mp4
+*.log
