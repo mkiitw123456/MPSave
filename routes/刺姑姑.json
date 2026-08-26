@@ -1,0 +1,817 @@
+{
+  "schema_version": 5,
+  "name": "刺姑姑",
+  "image": "刺姑姑_minimap.png",
+  "minimap_region": {
+    "x": 4,
+    "y": 68,
+    "width": 209,
+    "height": 117
+  },
+  "bindings": {
+    "monsters": [
+      "guai/1.png",
+      "guai/2.png",
+      "guai/3.png",
+      "guai/4.png",
+      "guai/5.png"
+    ]
+  },
+  "combat": {
+    "mode": "normal"
+  },
+  "target_points": [
+    {
+      "x": 53.0,
+      "y": 37.0,
+      "display_x": 53,
+      "display_y": 37
+    },
+    {
+      "x": 75.0,
+      "y": 37.0,
+      "display_x": 75,
+      "display_y": 37
+    },
+    {
+      "x": 65.0,
+      "y": 37.0,
+      "display_x": 65,
+      "display_y": 37
+    },
+    {
+      "x": 65.0,
+      "y": 52.0,
+      "display_x": 65,
+      "display_y": 52
+    },
+    {
+      "x": 53.0,
+      "y": 52.0,
+      "display_x": 53,
+      "display_y": 52
+    }
+  ],
+  "segments": [
+    {
+      "type": "patrol",
+      "x_tolerance": 3.0,
+      "y_tolerance": 4.0,
+      "combat_policy": "clear",
+      "walk_down_direction": "auto",
+      "jump_hold_seconds": 0.1,
+      "up_delay_seconds": 0.04,
+      "attach_timeout_seconds": 0.8,
+      "minimum_progress": 3.0,
+      "rope_launch_x_range": 4.0,
+      "rope_x_tolerance": 5.0,
+      "exit_mode": "auto",
+      "retry_limit": 10,
+      "direction_hold_seconds": 0.35,
+      "screen_rope_x_tolerance": 4.0,
+      "screen_rope_threshold": 0.45,
+      "screen_rope_launch_distance": 70.0,
+      "screen_rope_stable_frames": 3,
+      "screen_rope_required": false,
+      "rope_launch_offset_x": 0.0,
+      "from": 0,
+      "to": 1
+    },
+    {
+      "type": "patrol",
+      "x_tolerance": 3.0,
+      "y_tolerance": 4.0,
+      "combat_policy": "clear",
+      "walk_down_direction": "auto",
+      "jump_hold_seconds": 0.1,
+      "up_delay_seconds": 0.04,
+      "attach_timeout_seconds": 0.8,
+      "minimum_progress": 3.0,
+      "rope_launch_x_range": 4.0,
+      "rope_x_tolerance": 5.0,
+      "exit_mode": "auto",
+      "retry_limit": 10,
+      "direction_hold_seconds": 0.35,
+      "screen_rope_x_tolerance": 4.0,
+      "screen_rope_threshold": 0.45,
+      "screen_rope_launch_distance": 70.0,
+      "screen_rope_stable_frames": 3,
+      "screen_rope_required": false,
+      "rope_launch_offset_x": 0.0,
+      "from": 1,
+      "to": 2
+    },
+    {
+      "type": "patrol",
+      "x_tolerance": 3.0,
+      "y_tolerance": 4.0,
+      "combat_policy": "clear",
+      "walk_down_direction": "auto",
+      "jump_hold_seconds": 0.1,
+      "up_delay_seconds": 0.04,
+      "attach_timeout_seconds": 0.8,
+      "minimum_progress": 3.0,
+      "rope_launch_x_range": 4.0,
+      "rope_x_tolerance": 5.0,
+      "exit_mode": "auto",
+      "retry_limit": 10,
+      "direction_hold_seconds": 0.35,
+      "screen_rope_x_tolerance": 4.0,
+      "screen_rope_threshold": 0.45,
+      "screen_rope_launch_distance": 70.0,
+      "screen_rope_stable_frames": 3,
+      "screen_rope_required": false,
+      "rope_launch_offset_x": 0.0,
+      "from": 2,
+      "to": 3
+    },
+    {
+      "type": "patrol",
+      "x_tolerance": 3.0,
+      "y_tolerance": 4.0,
+      "combat_policy": "clear",
+      "walk_down_direction": "auto",
+      "jump_hold_seconds": 0.1,
+      "up_delay_seconds": 0.04,
+      "attach_timeout_seconds": 0.8,
+      "minimum_progress": 3.0,
+      "rope_launch_x_range": 4.0,
+      "rope_x_tolerance": 5.0,
+      "exit_mode": "auto",
+      "retry_limit": 10,
+      "direction_hold_seconds": 0.35,
+      "screen_rope_x_tolerance": 4.0,
+      "screen_rope_threshold": 0.45,
+      "screen_rope_launch_distance": 70.0,
+      "screen_rope_stable_frames": 3,
+      "screen_rope_required": false,
+      "rope_launch_offset_x": 0.0,
+      "from": 3,
+      "to": 4
+    },
+    {
+      "type": "patrol",
+      "x_tolerance": 3.0,
+      "y_tolerance": 4.0,
+      "combat_policy": "clear",
+      "walk_down_direction": "auto",
+      "jump_hold_seconds": 0.1,
+      "up_delay_seconds": 0.04,
+      "attach_timeout_seconds": 0.8,
+      "minimum_progress": 3.0,
+      "rope_launch_x_range": 4.0,
+      "rope_x_tolerance": 5.0,
+      "exit_mode": "auto",
+      "retry_limit": 10,
+      "direction_hold_seconds": 0.35,
+      "screen_rope_x_tolerance": 4.0,
+      "screen_rope_threshold": 0.45,
+      "screen_rope_launch_distance": 70.0,
+      "screen_rope_stable_frames": 3,
+      "screen_rope_required": false,
+      "rope_launch_offset_x": 0.0,
+      "from": 4,
+      "to": 0
+    }
+  ],
+  "topology": {
+    "platforms": [
+      {
+        "id": "p1",
+        "x1": 49.0,
+        "x2": 83.0,
+        "y": 37.0,
+        "trace": [
+          {
+            "x": 83.0,
+            "y": 37.0
+          },
+          {
+            "x": 82.0,
+            "y": 37.0
+          },
+          {
+            "x": 81.0,
+            "y": 37.0
+          },
+          {
+            "x": 80.0,
+            "y": 37.0
+          },
+          {
+            "x": 79.0,
+            "y": 37.0
+          },
+          {
+            "x": 78.0,
+            "y": 37.0
+          },
+          {
+            "x": 77.0,
+            "y": 37.0
+          },
+          {
+            "x": 76.0,
+            "y": 37.0
+          },
+          {
+            "x": 75.0,
+            "y": 37.0
+          },
+          {
+            "x": 74.0,
+            "y": 37.0
+          },
+          {
+            "x": 73.0,
+            "y": 37.0
+          },
+          {
+            "x": 72.0,
+            "y": 37.0
+          },
+          {
+            "x": 71.0,
+            "y": 37.0
+          },
+          {
+            "x": 70.0,
+            "y": 37.0
+          },
+          {
+            "x": 69.0,
+            "y": 37.0
+          },
+          {
+            "x": 68.0,
+            "y": 37.0
+          },
+          {
+            "x": 67.0,
+            "y": 38.0
+          },
+          {
+            "x": 66.0,
+            "y": 38.0
+          },
+          {
+            "x": 65.0,
+            "y": 37.0
+          },
+          {
+            "x": 64.0,
+            "y": 37.0
+          },
+          {
+            "x": 63.0,
+            "y": 37.0
+          },
+          {
+            "x": 62.0,
+            "y": 38.0
+          },
+          {
+            "x": 61.0,
+            "y": 37.0
+          },
+          {
+            "x": 60.0,
+            "y": 37.0
+          },
+          {
+            "x": 59.0,
+            "y": 37.0
+          },
+          {
+            "x": 60.0,
+            "y": 37.0
+          },
+          {
+            "x": 59.0,
+            "y": 38.0
+          },
+          {
+            "x": 58.0,
+            "y": 38.0
+          },
+          {
+            "x": 57.0,
+            "y": 38.0
+          },
+          {
+            "x": 56.0,
+            "y": 37.0
+          },
+          {
+            "x": 55.0,
+            "y": 37.0
+          },
+          {
+            "x": 54.0,
+            "y": 37.0
+          },
+          {
+            "x": 53.0,
+            "y": 37.0
+          },
+          {
+            "x": 52.0,
+            "y": 37.0
+          },
+          {
+            "x": 51.0,
+            "y": 36.0
+          },
+          {
+            "x": 50.0,
+            "y": 36.0
+          },
+          {
+            "x": 49.0,
+            "y": 36.0
+          },
+          {
+            "x": 50.0,
+            "y": 36.0
+          },
+          {
+            "x": 49.0,
+            "y": 36.0
+          },
+          {
+            "x": 50.0,
+            "y": 36.0
+          },
+          {
+            "x": 51.0,
+            "y": 36.0
+          },
+          {
+            "x": 52.0,
+            "y": 37.0
+          },
+          {
+            "x": 53.0,
+            "y": 37.0
+          },
+          {
+            "x": 54.0,
+            "y": 37.0
+          },
+          {
+            "x": 55.0,
+            "y": 37.0
+          },
+          {
+            "x": 56.0,
+            "y": 37.0
+          },
+          {
+            "x": 57.0,
+            "y": 37.0
+          },
+          {
+            "x": 57.0,
+            "y": 38.0
+          },
+          {
+            "x": 56.0,
+            "y": 37.0
+          },
+          {
+            "x": 55.0,
+            "y": 37.0
+          },
+          {
+            "x": 54.0,
+            "y": 37.0
+          },
+          {
+            "x": 53.0,
+            "y": 37.0
+          },
+          {
+            "x": 52.0,
+            "y": 37.0
+          },
+          {
+            "x": 51.0,
+            "y": 36.0
+          }
+        ]
+      },
+      {
+        "id": "p2",
+        "x1": 40.0,
+        "x2": 81.0,
+        "y": 53.0,
+        "trace": [
+          {
+            "x": 81.0,
+            "y": 52.0
+          },
+          {
+            "x": 80.0,
+            "y": 53.0
+          },
+          {
+            "x": 79.0,
+            "y": 53.0
+          },
+          {
+            "x": 78.0,
+            "y": 53.0
+          },
+          {
+            "x": 77.0,
+            "y": 53.0
+          },
+          {
+            "x": 77.0,
+            "y": 52.0
+          },
+          {
+            "x": 76.0,
+            "y": 52.0
+          },
+          {
+            "x": 75.0,
+            "y": 52.0
+          },
+          {
+            "x": 75.0,
+            "y": 53.0
+          },
+          {
+            "x": 74.0,
+            "y": 53.0
+          },
+          {
+            "x": 73.0,
+            "y": 53.0
+          },
+          {
+            "x": 72.0,
+            "y": 53.0
+          },
+          {
+            "x": 71.0,
+            "y": 52.0
+          },
+          {
+            "x": 70.0,
+            "y": 52.0
+          },
+          {
+            "x": 69.0,
+            "y": 53.0
+          },
+          {
+            "x": 68.0,
+            "y": 53.0
+          },
+          {
+            "x": 67.0,
+            "y": 53.0
+          },
+          {
+            "x": 66.0,
+            "y": 52.0
+          },
+          {
+            "x": 65.0,
+            "y": 52.0
+          },
+          {
+            "x": 65.0,
+            "y": 51.0
+          },
+          {
+            "x": 66.0,
+            "y": 51.0
+          },
+          {
+            "x": 66.0,
+            "y": 53.0
+          },
+          {
+            "x": 66.0,
+            "y": 52.0
+          },
+          {
+            "x": 65.0,
+            "y": 52.0
+          },
+          {
+            "x": 64.0,
+            "y": 52.0
+          },
+          {
+            "x": 63.0,
+            "y": 53.0
+          },
+          {
+            "x": 62.0,
+            "y": 53.0
+          },
+          {
+            "x": 61.0,
+            "y": 53.0
+          },
+          {
+            "x": 60.0,
+            "y": 52.0
+          },
+          {
+            "x": 59.0,
+            "y": 52.0
+          },
+          {
+            "x": 58.0,
+            "y": 52.0
+          },
+          {
+            "x": 58.0,
+            "y": 53.0
+          },
+          {
+            "x": 57.0,
+            "y": 53.0
+          },
+          {
+            "x": 56.0,
+            "y": 53.0
+          },
+          {
+            "x": 55.0,
+            "y": 53.0
+          },
+          {
+            "x": 55.0,
+            "y": 52.0
+          },
+          {
+            "x": 54.0,
+            "y": 52.0
+          },
+          {
+            "x": 53.0,
+            "y": 52.0
+          },
+          {
+            "x": 52.0,
+            "y": 53.0
+          },
+          {
+            "x": 51.0,
+            "y": 53.0
+          },
+          {
+            "x": 50.0,
+            "y": 53.0
+          },
+          {
+            "x": 49.0,
+            "y": 52.0
+          },
+          {
+            "x": 48.0,
+            "y": 52.0
+          },
+          {
+            "x": 47.0,
+            "y": 52.0
+          },
+          {
+            "x": 46.0,
+            "y": 53.0
+          },
+          {
+            "x": 45.0,
+            "y": 53.0
+          },
+          {
+            "x": 44.0,
+            "y": 53.0
+          },
+          {
+            "x": 43.0,
+            "y": 52.0
+          },
+          {
+            "x": 42.0,
+            "y": 52.0
+          },
+          {
+            "x": 41.0,
+            "y": 53.0
+          },
+          {
+            "x": 40.0,
+            "y": 53.0
+          }
+        ]
+      }
+    ],
+    "ropes": [
+      {
+        "id": "r1",
+        "bottom": {
+          "x": 48.0,
+          "y": 52.0
+        },
+        "top": {
+          "x": 49.0,
+          "y": 36.0
+        },
+        "launch_offset_x": 0.0,
+        "launch_left_range": 4.0,
+        "launch_right_range": 4.0,
+        "lateral_deadzone": 0.0,
+        "trace": [
+          {
+            "x": 48.0,
+            "y": 52.0
+          },
+          {
+            "x": 48.0,
+            "y": 50.0
+          },
+          {
+            "x": 48.0,
+            "y": 48.0
+          },
+          {
+            "x": 48.0,
+            "y": 47.0
+          },
+          {
+            "x": 48.0,
+            "y": 46.0
+          },
+          {
+            "x": 48.0,
+            "y": 45.0
+          },
+          {
+            "x": 49.0,
+            "y": 43.0
+          },
+          {
+            "x": 49.0,
+            "y": 42.0
+          },
+          {
+            "x": 49.0,
+            "y": 41.0
+          },
+          {
+            "x": 49.0,
+            "y": 40.0
+          },
+          {
+            "x": 49.0,
+            "y": 39.0
+          },
+          {
+            "x": 49.0,
+            "y": 38.0
+          },
+          {
+            "x": 49.0,
+            "y": 37.0
+          },
+          {
+            "x": 49.0,
+            "y": 36.0
+          }
+        ]
+      }
+    ],
+    "jumps": [],
+    "recorded_moves": [
+      {
+        "id": "m1",
+        "start": {
+          "x": 65.0,
+          "y": 37.0
+        },
+        "end": {
+          "x": 65.0,
+          "y": 52.0
+        },
+        "events": [
+          {
+            "time": 0.3278,
+            "key": "down",
+            "down": true
+          },
+          {
+            "time": 0.4236,
+            "key": "jump",
+            "down": true
+          },
+          {
+            "time": 0.5356,
+            "key": "jump",
+            "down": false
+          },
+          {
+            "time": 0.6392,
+            "key": "jump",
+            "down": true
+          },
+          {
+            "time": 0.7116,
+            "key": "jump",
+            "down": false
+          },
+          {
+            "time": 0.8071,
+            "key": "jump",
+            "down": true
+          },
+          {
+            "time": 0.8955,
+            "key": "jump",
+            "down": false
+          },
+          {
+            "time": 0.9708,
+            "key": "jump",
+            "down": true
+          },
+          {
+            "time": 1.0651,
+            "key": "jump",
+            "down": false
+          },
+          {
+            "time": 1.0952,
+            "key": "down",
+            "down": false
+          }
+        ],
+        "duration": 1.8401,
+        "trace": [
+          {
+            "x": 65.0,
+            "y": 37.0
+          },
+          {
+            "x": 65.0,
+            "y": 38.0
+          },
+          {
+            "x": 65.0,
+            "y": 41.0
+          },
+          {
+            "x": 65.0,
+            "y": 44.0
+          },
+          {
+            "x": 65.0,
+            "y": 48.0
+          },
+          {
+            "x": 65.0,
+            "y": 52.0
+          }
+        ]
+      }
+    ],
+    "goals": [
+      {
+        "x": 53.0,
+        "y": 37.0,
+        "display_x": 53,
+        "display_y": 37
+      },
+      {
+        "x": 75.0,
+        "y": 37.0,
+        "display_x": 75,
+        "display_y": 37
+      },
+      {
+        "x": 65.0,
+        "y": 37.0,
+        "display_x": 65,
+        "display_y": 37
+      },
+      {
+        "x": 65.0,
+        "y": 52.0,
+        "display_x": 65,
+        "display_y": 52
+      },
+      {
+        "x": 53.0,
+        "y": 52.0,
+        "display_x": 53,
+        "display_y": 52
+      }
+    ]
+  }
+}

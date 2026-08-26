@@ -1,0 +1,94 @@
+{
+  "schema_version": 2,
+  "name": "弓手左邊3",
+  "image": "弓手左邊3_minimap.png",
+  "minimap_region": {
+    "x": 6,
+    "y": 66,
+    "width": 146,
+    "height": 128
+  },
+  "bindings": {
+    "monsters": [
+      "guai/1.png",
+      "guai/3.png",
+      "guai/姑姑寶貝1.png",
+      "guai/姑姑寶貝2.png",
+      "guai/木妖1.png",
+      "guai/木妖2.png"
+    ]
+  },
+  "combat": {
+    "mode": "normal",
+    "heal_key": "d",
+    "heal_range_ratio": 0.4,
+    "transit_pulse_seconds": 0.15,
+    "transit_cooldown_seconds": 0.8,
+    "clear_confirm_seconds": 0.5
+  },
+  "target_points": [
+    {
+      "x": 37.038,
+      "y": 61.004,
+      "display_x": 37,
+      "display_y": 61
+    },
+    {
+      "x": 107.03,
+      "y": 61.004,
+      "display_x": 107,
+      "display_y": 61
+    }
+  ],
+  "segments": [
+    {
+      "type": "patrol",
+      "x_tolerance": 3.0,
+      "y_tolerance": 4.0,
+      "combat_policy": "clear",
+      "walk_down_direction": "auto",
+      "jump_hold_seconds": 0.1,
+      "up_delay_seconds": 0.04,
+      "attach_timeout_seconds": 0.8,
+      "minimum_progress": 3.0,
+      "rope_launch_x_range": 4.0,
+      "rope_x_tolerance": 5.0,
+      "exit_mode": "auto",
+      "retry_limit": 10,
+      "direction_hold_seconds": 0.35,
+      "screen_rope_x_tolerance": 4.0,
+      "screen_rope_threshold": 0.45,
+      "screen_rope_launch_distance": 70.0,
+      "screen_rope_stable_frames": 3,
+      "screen_rope_required": false,
+      "rope_launch_offset_x": 0.0,
+      "from": 0,
+      "to": 1
+    },
+    {
+      "type": "patrol",
+      "x_tolerance": 3.0,
+      "y_tolerance": 4.0,
+      "combat_policy": "clear",
+      "walk_down_direction": "auto",
+      "jump_hold_seconds": 0.1,
+      "up_delay_seconds": 0.04,
+      "attach_timeout_seconds": 0.8,
+      "minimum_progress": 3.0,
+      "rope_launch_x_range": 4.0,
+      "rope_x_tolerance": 5.0,
+      "exit_mode": "auto",
+      "retry_limit": 10,
+      "direction_hold_seconds": 0.35,
+      "screen_rope_x_tolerance": 4.0,
+      "screen_rope_threshold": 0.45,
+      "screen_rope_launch_distance": 70.0,
+      "screen_rope_stable_frames": 3,
+      "screen_rope_required": false,
+      "rope_launch_offset_x": 0.0,
+      "from": 1,
+      "to": 0
+    }
+  ],
+  "topology": null
+}
