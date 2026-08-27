@@ -1,0 +1,104 @@
+{
+  "name": "015-地铁1号线01-堕落",
+  "bindings": {
+    "monsters": [
+      "BB\\guai\\蓝水灵.png",
+      "BB\\guai\\蓝水灵2.png"
+    ]
+  },
+  "target_points": [
+    {
+      "x": 39.0,
+      "y": 49.0,
+      "display_x": 39,
+      "display_y": 49
+    },
+    {
+      "x": 63.0,
+      "y": 41.0,
+      "display_x": 63,
+      "display_y": 41
+    },
+    {
+      "x": 51.0,
+      "y": 34.0,
+      "display_x": 51,
+      "display_y": 34
+    },
+    {
+      "x": 36.0,
+      "y": 34.0,
+      "display_x": 36,
+      "display_y": 34
+    },
+    {
+      "x": 52.0,
+      "y": 26.0,
+      "display_x": 52,
+      "display_y": 26
+    },
+    {
+      "x": 79.0,
+      "y": 38.0,
+      "display_x": 79,
+      "display_y": 38
+    },
+    {
+      "x": 106.0,
+      "y": 38.0,
+      "display_x": 106,
+      "display_y": 38
+    },
+    {
+      "x": 113.0,
+      "y": 49.0,
+      "display_x": 113,
+      "display_y": 49
+    },
+    {
+      "x": 128.0,
+      "y": 41.0,
+      "display_x": 128,
+      "display_y": 41
+    },
+    {
+      "x": 163.0,
+      "y": 41.0,
+      "display_x": 163,
+      "display_y": 41
+    },
+    {
+      "x": 224.0,
+      "y": 41.0,
+      "display_x": 224,
+      "display_y": 41
+    },
+    {
+      "x": 185.0,
+      "y": 41.0,
+      "display_x": 185,
+      "display_y": 41
+    },
+    {
+      "x": 186.0,
+      "y": 26.0,
+      "display_x": 186,
+      "display_y": 26
+    },
+    {
+      "x": 204.0,
+      "y": 26.0,
+      "display_x": 204,
+      "display_y": 26
+    },
+    {
+      "x": 223.0,
+      "y": 49.0,
+      "display_x": 223,
+      "display_y": 49
+    }
+  ],
+  "schema_version": 1,
+  "legacy_source": "AA/Astra/015-地铁1号线01-堕落.dat",
+  "image": "015-地铁1号线01-堕落.bmp"
+}

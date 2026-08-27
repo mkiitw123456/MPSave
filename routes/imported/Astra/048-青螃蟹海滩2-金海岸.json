@@ -1,0 +1,84 @@
+{
+  "name": "048-青螃蟹海滩2-金海岸",
+  "bindings": {
+    "monsters": [
+      "BB\\guai\\海龟.png",
+      "BB\\guai\\红螃蟹.png",
+      "BB\\guai\\红螃蟹1.png",
+      "BB\\guai\\青螃蟹.png",
+      "BB\\guai\\青螃蟹1.png",
+      "BB\\guai\\青螃蟹2.png"
+    ]
+  },
+  "target_points": [
+    {
+      "x": 86.0,
+      "y": 65.0,
+      "display_x": 86,
+      "display_y": 65
+    },
+    {
+      "x": 22.0,
+      "y": 64.0,
+      "display_x": 22,
+      "display_y": 64
+    },
+    {
+      "x": 42.0,
+      "y": 43.0,
+      "display_x": 42,
+      "display_y": 43
+    },
+    {
+      "x": 13.0,
+      "y": 43.0,
+      "display_x": 13,
+      "display_y": 43
+    },
+    {
+      "x": 35.0,
+      "y": 27.0,
+      "display_x": 35,
+      "display_y": 27
+    },
+    {
+      "x": 21.0,
+      "y": 27.0,
+      "display_x": 21,
+      "display_y": 27
+    },
+    {
+      "x": 56.0,
+      "y": 65.0,
+      "display_x": 56,
+      "display_y": 65
+    },
+    {
+      "x": 64.0,
+      "y": 43.0,
+      "display_x": 64,
+      "display_y": 43
+    },
+    {
+      "x": 91.0,
+      "y": 43.0,
+      "display_x": 91,
+      "display_y": 43
+    },
+    {
+      "x": 71.0,
+      "y": 27.0,
+      "display_x": 71,
+      "display_y": 27
+    },
+    {
+      "x": 86.0,
+      "y": 27.0,
+      "display_x": 86,
+      "display_y": 27
+    }
+  ],
+  "schema_version": 1,
+  "legacy_source": "AA/Astra/048-青螃蟹海滩2-金海岸.dat",
+  "image": "048-青螃蟹海滩2-金海岸.bmp"
+}

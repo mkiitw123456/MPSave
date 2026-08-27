@@ -1,0 +1,105 @@
+{
+  "name": "031-沼泽地3-堕落",
+  "bindings": {
+    "monsters": [
+      "BB\\guai\\小青蛇.png",
+      "BB\\guai\\鳄鱼.png",
+      "BB\\guai\\鳄鱼2.png"
+    ]
+  },
+  "target_points": [
+    {
+      "x": 128.0,
+      "y": 56.0,
+      "display_x": 128,
+      "display_y": 56
+    },
+    {
+      "x": 136.0,
+      "y": 37.0,
+      "display_x": 136,
+      "display_y": 37
+    },
+    {
+      "x": 164.0,
+      "y": 37.0,
+      "display_x": 164,
+      "display_y": 37
+    },
+    {
+      "x": 156.0,
+      "y": 26.0,
+      "display_x": 156,
+      "display_y": 26
+    },
+    {
+      "x": 121.0,
+      "y": 26.0,
+      "display_x": 121,
+      "display_y": 26
+    },
+    {
+      "x": 135.0,
+      "y": 15.0,
+      "display_x": 135,
+      "display_y": 15
+    },
+    {
+      "x": 163.0,
+      "y": 15.0,
+      "display_x": 163,
+      "display_y": 15
+    },
+    {
+      "x": 110.0,
+      "y": 56.0,
+      "display_x": 110,
+      "display_y": 56
+    },
+    {
+      "x": 88.0,
+      "y": 56.0,
+      "display_x": 88,
+      "display_y": 56
+    },
+    {
+      "x": 70.0,
+      "y": 37.0,
+      "display_x": 70,
+      "display_y": 37
+    },
+    {
+      "x": 97.0,
+      "y": 37.0,
+      "display_x": 97,
+      "display_y": 37
+    },
+    {
+      "x": 82.0,
+      "y": 26.0,
+      "display_x": 82,
+      "display_y": 26
+    },
+    {
+      "x": 107.0,
+      "y": 26.0,
+      "display_x": 107,
+      "display_y": 26
+    },
+    {
+      "x": 98.0,
+      "y": 15.0,
+      "display_x": 98,
+      "display_y": 15
+    },
+    {
+      "x": 72.0,
+      "y": 15.0,
+      "display_x": 72,
+      "display_y": 15
+    }
+  ],
+  "schema_version": 1,
+  "legacy_source": "AA/Astra/031-沼泽地3-堕落.dat",
+  "image": "031-沼泽地3-堕落.bmp"
+}

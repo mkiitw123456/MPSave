@@ -1,0 +1,62 @@
+{
+  "name": "050-龙族打猎场-奇幻",
+  "bindings": {
+    "monsters": [
+      "BB\\guai\\土龙.png",
+      "BB\\guai\\土龙1.png"
+    ]
+  },
+  "target_points": [
+    {
+      "x": 88.0,
+      "y": 109.0,
+      "display_x": 88,
+      "display_y": 109
+    },
+    {
+      "x": 45.0,
+      "y": 109.0,
+      "display_x": 45,
+      "display_y": 109
+    },
+    {
+      "x": 56.0,
+      "y": 95.0,
+      "display_x": 56,
+      "display_y": 95
+    },
+    {
+      "x": 81.0,
+      "y": 95.0,
+      "display_x": 81,
+      "display_y": 95
+    },
+    {
+      "x": 59.0,
+      "y": 79.0,
+      "display_x": 59,
+      "display_y": 79
+    },
+    {
+      "x": 85.0,
+      "y": 80.0,
+      "display_x": 85,
+      "display_y": 80
+    },
+    {
+      "x": 60.0,
+      "y": 61.0,
+      "display_x": 60,
+      "display_y": 61
+    },
+    {
+      "x": 83.0,
+      "y": 62.0,
+      "display_x": 83,
+      "display_y": 62
+    }
+  ],
+  "schema_version": 1,
+  "legacy_source": "AA/Astra/050-龙族打猎场-奇幻.dat",
+  "image": "050-龙族打猎场-奇幻.bmp"
+}

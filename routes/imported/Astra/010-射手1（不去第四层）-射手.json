@@ -1,0 +1,54 @@
+{
+  "name": "010-射手1（不去第四层）-射手",
+  "bindings": {
+    "monsters": [
+      "BB\\guai\\绿水灵.png",
+      "BB\\guai\\绿水灵1.png",
+      "BB\\guai\\花蘑菇.png",
+      "BB\\guai\\花蘑菇1.png",
+      "BB\\guai\\蘑菇仔.png",
+      "BB\\guai\\蜗牛.png"
+    ]
+  },
+  "target_points": [
+    {
+      "x": 112.0,
+      "y": 91.0,
+      "display_x": 112,
+      "display_y": 91
+    },
+    {
+      "x": 30.0,
+      "y": 91.0,
+      "display_x": 30,
+      "display_y": 91
+    },
+    {
+      "x": 102.0,
+      "y": 72.0,
+      "display_x": 102,
+      "display_y": 72
+    },
+    {
+      "x": 41.0,
+      "y": 72.0,
+      "display_x": 41,
+      "display_y": 72
+    },
+    {
+      "x": 40.0,
+      "y": 57.0,
+      "display_x": 40,
+      "display_y": 57
+    },
+    {
+      "x": 98.0,
+      "y": 57.0,
+      "display_x": 98,
+      "display_y": 57
+    }
+  ],
+  "schema_version": 1,
+  "legacy_source": "AA/Astra/010-射手1（不去第四层）-射手.dat",
+  "image": "010-射手1（不去第四层）-射手.bmp"
+}

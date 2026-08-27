@@ -1,0 +1,111 @@
+{
+  "name": "048-地铁1号线04-堕落",
+  "bindings": {
+    "monsters": [
+      "BB\\guai\\幽灵.png",
+      "BB\\guai\\幽灵1.png",
+      "BB\\guai\\幽灵2.png"
+    ]
+  },
+  "target_points": [
+    {
+      "x": 41.0,
+      "y": 49.0,
+      "display_x": 41,
+      "display_y": 49
+    },
+    {
+      "x": 71.0,
+      "y": 41.0,
+      "display_x": 71,
+      "display_y": 41
+    },
+    {
+      "x": 46.0,
+      "y": 41.0,
+      "display_x": 46,
+      "display_y": 41
+    },
+    {
+      "x": 63.0,
+      "y": 34.0,
+      "display_x": 63,
+      "display_y": 34
+    },
+    {
+      "x": 82.0,
+      "y": 34.0,
+      "display_x": 82,
+      "display_y": 34
+    },
+    {
+      "x": 87.0,
+      "y": 26.0,
+      "display_x": 87,
+      "display_y": 26
+    },
+    {
+      "x": 121.0,
+      "y": 26.0,
+      "display_x": 121,
+      "display_y": 26
+    },
+    {
+      "x": 120.0,
+      "y": 36.0,
+      "display_x": 120,
+      "display_y": 36
+    },
+    {
+      "x": 148.0,
+      "y": 36.0,
+      "display_x": 148,
+      "display_y": 36
+    },
+    {
+      "x": 156.0,
+      "y": 49.0,
+      "display_x": 156,
+      "display_y": 49
+    },
+    {
+      "x": 218.0,
+      "y": 49.0,
+      "display_x": 218,
+      "display_y": 49
+    },
+    {
+      "x": 173.0,
+      "y": 49.0,
+      "display_x": 173,
+      "display_y": 49
+    },
+    {
+      "x": 197.0,
+      "y": 41.0,
+      "display_x": 197,
+      "display_y": 41
+    },
+    {
+      "x": 166.0,
+      "y": 41.0,
+      "display_x": 166,
+      "display_y": 41
+    },
+    {
+      "x": 186.0,
+      "y": 26.0,
+      "display_x": 186,
+      "display_y": 26
+    },
+    {
+      "x": 147.0,
+      "y": 26.0,
+      "display_x": 147,
+      "display_y": 26
+    }
+  ],
+  "schema_version": 1,
+  "legacy_source": "AA/Astra/048-地铁1号线04-堕落.dat",
+  "image": "048-地铁1号线04-堕落.bmp"
+}

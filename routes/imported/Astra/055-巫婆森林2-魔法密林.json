@@ -1,0 +1,97 @@
+{
+  "name": "055-巫婆森林2-魔法密林",
+  "bindings": {
+    "monsters": [
+      "BB\\guai\\女巫.png"
+    ]
+  },
+  "target_points": [
+    {
+      "x": 29.0,
+      "y": 75.0,
+      "display_x": 29,
+      "display_y": 75
+    },
+    {
+      "x": 47.0,
+      "y": 60.0,
+      "display_x": 47,
+      "display_y": 60
+    },
+    {
+      "x": 10.0,
+      "y": 60.0,
+      "display_x": 10,
+      "display_y": 60
+    },
+    {
+      "x": 16.0,
+      "y": 49.0,
+      "display_x": 16,
+      "display_y": 49
+    },
+    {
+      "x": 48.0,
+      "y": 49.0,
+      "display_x": 48,
+      "display_y": 49
+    },
+    {
+      "x": 44.0,
+      "y": 37.0,
+      "display_x": 44,
+      "display_y": 37
+    },
+    {
+      "x": 11.0,
+      "y": 37.0,
+      "display_x": 11,
+      "display_y": 37
+    },
+    {
+      "x": 75.0,
+      "y": 75.0,
+      "display_x": 75,
+      "display_y": 75
+    },
+    {
+      "x": 67.0,
+      "y": 60.0,
+      "display_x": 67,
+      "display_y": 60
+    },
+    {
+      "x": 94.0,
+      "y": 60.0,
+      "display_x": 94,
+      "display_y": 60
+    },
+    {
+      "x": 94.0,
+      "y": 49.0,
+      "display_x": 94,
+      "display_y": 49
+    },
+    {
+      "x": 61.0,
+      "y": 49.0,
+      "display_x": 61,
+      "display_y": 49
+    },
+    {
+      "x": 64.0,
+      "y": 37.0,
+      "display_x": 64,
+      "display_y": 37
+    },
+    {
+      "x": 91.0,
+      "y": 37.0,
+      "display_x": 91,
+      "display_y": 37
+    }
+  ],
+  "schema_version": 1,
+  "legacy_source": "AA/Astra/055-巫婆森林2-魔法密林.dat",
+  "image": "055-巫婆森林2-魔法密林.bmp"
+}

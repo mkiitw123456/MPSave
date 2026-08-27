@@ -1,0 +1,56 @@
+{
+  "name": "024-蚂蚁洞3-奇幻",
+  "bindings": {
+    "monsters": [
+      "BB\\guai\\僵尸蘑菇.png",
+      "BB\\guai\\绿蘑菇.png"
+    ]
+  },
+  "target_points": [
+    {
+      "x": 146.0,
+      "y": 105.0,
+      "display_x": 146,
+      "display_y": 105
+    },
+    {
+      "x": 136.0,
+      "y": 86.0,
+      "display_x": 136,
+      "display_y": 86
+    },
+    {
+      "x": 118.0,
+      "y": 87.0,
+      "display_x": 118,
+      "display_y": 87
+    },
+    {
+      "x": 115.0,
+      "y": 105.0,
+      "display_x": 115,
+      "display_y": 105
+    },
+    {
+      "x": 51.0,
+      "y": 116.0,
+      "display_x": 51,
+      "display_y": 116
+    },
+    {
+      "x": 56.0,
+      "y": 99.0,
+      "display_x": 56,
+      "display_y": 99
+    },
+    {
+      "x": 75.0,
+      "y": 99.0,
+      "display_x": 75,
+      "display_y": 99
+    }
+  ],
+  "schema_version": 1,
+  "legacy_source": "AA/Astra/024-蚂蚁洞3-奇幻.dat",
+  "image": "024-蚂蚁洞3-奇幻.bmp"
+}
