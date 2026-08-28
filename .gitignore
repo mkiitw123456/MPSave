@@ -1,6 +1,6 @@
-config/
-ai_workspace/
+config/*.secret
+backups/
+browser/
 diagnostics/
-*.secret
 *.mp4
 *.log

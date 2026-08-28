@@ -10,14 +10,14 @@
   },
   "bindings": {
     "monsters": [
-      "guai/1.png",
-      "guai/3.png",
-      "guai/5.png",
-      "guai/6.png",
-      "guai/姑姑寶貝1.png",
-      "guai/姑姑寶貝2.png",
-      "guai/木妖1.png",
-      "guai/木妖2.png"
+      "guai/弓手左邊23/1.png",
+      "guai/弓手左邊23/3.png",
+      "guai/弓手左邊23/5.png",
+      "guai/弓手左邊23/6.png",
+      "guai/弓手左邊23/姑姑寶貝1.png",
+      "guai/弓手左邊23/姑姑寶貝2.png",
+      "guai/弓手左邊23/木妖1.png",
+      "guai/弓手左邊23/木妖2.png"
     ]
   },
   "combat": {

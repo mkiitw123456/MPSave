@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "dry_run": false,
+  "selected_profile": "default",
+  "selected_route": "F:\\MapleAutoRebuildSource\\dist_v34_18\\MapleAutoRebuild\\_internal\\data\\routes\\黑肥肥領土2最終版.json",
+  "window": {
+    "hwnd": 2427646,
+    "pid": 29912,
+    "title": "新楓之谷：經典版",
+    "expected_width": 1366,
+    "expected_height": 768,
+    "dpi_scale": 1.0,
+    "confirmed": true
+  },
+  "minimap": {
+    "x": 13,
+    "y": 67,
+    "width": 109,
+    "height": 108,
+    "unavailable_timeout_seconds": 10.0,
+    "red_min_area": 25,
+    "red_max_area": 49,
+    "red_rgb": [
+      238,
+      0,
+      0
+    ],
+    "red_tolerance": 18
+  },
+  "combat": {
+    "attack_key": "a",
+    "jump_key": "x",
+    "pickup_key": "z",
+    "fight_distance_min": 260,
+    "fight_distance_max": 320,
+    "monster_detection_multiplier": 1.6,
+    "monster_detection_mode": "opencv",
+    "monster_confidence_threshold": 0.5,
+    "monster_template_threshold": 0.94,
+    "attack_hold_seconds": 0.5,
+    "skill_lock_seconds": 0.55,
+    "turn_confirm_seconds": 0.08,
+    "detection_interval_seconds": 0.017,
+    "face_hold_seconds": 0.12,
+    "target_lost_seconds": 1.0,
+    "screen_anchor_x": 683,
+    "screen_anchor_y": 420,
+    "attack_range_height": 180,
+    "lightbulb_tracking_enabled": true,
+    "lightbulb_match_threshold": 0.72,
+    "lightbulb_ai_confidence_threshold": 0.45,
+    "lightbulb_offset_x": 0,
+    "lightbulb_offset_y": 65,
+    "lightbulb_hold_seconds": 1.0,
+    "facing_ai_enabled": true,
+    "facing_confidence_threshold": 0.72,
+    "facing_confirm_frames": 2
+  },
+  "discord": {
+    "enabled": false,
+    "mention_everyone": true,
+    "retry_count": 3,
+    "timeout_seconds": 8.0,
+    "attach_full_frame": true,
+    "attach_minimap": true
+  },
+  "detection": {
+    "player_match_threshold": 0.65,
+    "player_hits_required": 3,
+    "player_hit_window_seconds": 1.0,
+    "player_absent_reset_seconds": 10.0,
+    "backend": "ai",
+    "optional_yolo_enabled": true,
+    "yolo_expected_sha256": "",
+    "lie_detector_region": null
+  },
+  "remote": {
+    "enabled": true,
+    "host": "127.0.0.1",
+    "port": 8765,
+    "tailscale_serve": true
+  },
+  "input": {
+    "preferred": "auto",
+    "serial_port": "",
+    "baud_rate": 115200,
+    "heartbeat_timeout_seconds": 2.5,
+    "require_foreground": true
+  },
+  "schedule": {
+    "cycle_enabled": false,
+    "fight_minutes": 30.0,
+    "rest_minutes": 30.0,
+    "fixed_pause_enabled": false,
+    "fixed_pause_start": "02:30",
+    "fixed_pause_end": "05:30",
+    "town_key_enabled": false,
+    "town_key": "0"
+  },
+  "status_bar": {
+    "enabled": true,
+    "hp_roi": [
+      510,
+      782,
+      615,
+      790
+    ],
+    "mp_roi": [
+      620,
+      782,
+      720,
+      790
+    ],
+    "hp_threshold_percent": 30,
+    "mp_threshold_percent": 30,
+    "hp_key": "d",
+    "mp_key": "",
+    "cooldown_seconds": 1.0,
+    "hp_safe_point": [
+      556,
+      754
+    ],
+    "hp_safe_rgb": [
+      238,
+      0,
+      0
+    ],
+    "hp_color_tolerance": 35,
+    "hp_safe_ratio": 0.6,
+    "hp_sample_radius": 2,
+    "hp_repeat_seconds": 0.15,
+    "hp_failure_seconds": 10.0
+  },
+  "chat": {
+    "enabled": false,
+    "trigger_on_player": false,
+    "cooldown_seconds": 60.0,
+    "messages": []
+  },
+  "channel": {
+    "enabled": false,
+    "target_channel": 1,
+    "game_menu_point": [
+      987,
+      676
+    ],
+    "channel_menu_point": [
+      1015,
+      683
+    ],
+    "grid_origin": [
+      513,
+      384
+    ],
+    "grid_step": [
+      69,
+      22
+    ],
+    "columns": 6,
+    "confirm_point": [
+      798,
+      502
+    ]
+  },
+  "reconnect": {
+    "enabled": true,
+    "login_url": "https://maplestoryclassic.beanfun.com/Main",
+    "game_window_title": "新楓之谷：經典版",
+    "required_account_text": "a****2@gmail.com",
+    "forbidden_account_text": "n****0@gmail.com",
+    "character_name": "MrAirWolf",
+    "server_name": "菇菇寶貝",
+    "missing_seconds": 10.0,
+    "web_step_timeout_seconds": 30.0,
+    "game_launch_timeout_seconds": 90.0,
+    "game_ready_timeout_seconds": 60.0,
+    "maximum_attempts": 3,
+    "retry_delay_seconds": 15.0,
+    "channel_mode": "specified",
+    "target_channel": 3,
+    "channel_key_delay_min_seconds": 0.7,
+    "channel_key_delay_max_seconds": 1.2,
+    "template_poll_seconds": 1.0,
+    "step_alert_seconds": 60.0,
+    "web_refresh_wait_seconds": 5.0,
+    "template_regions": {
+      "web_allowed_account.png": [
+        792,
+        379,
+        194,
+        49
+      ],
+      "web_character.png": [
+        756,
+        485,
+        120,
+        41
+      ],
+      "web_continue.png": [
+        772,
+        734,
+        384,
+        31
+      ]
+    },
+    "fallback_click_seconds": 10.0,
+    "fallback_repeat_seconds": 10.0
+  },
+  "shared_data": {
+    "enabled": true,
+    "repository_url": "https://github.com/mkiitw123456/MPSave.git",
+    "branch": "main",
+    "local_directory": "",
+    "sync_on_startup": true
+  },
+  "auto_chat_enabled": false,
+  "schedule_enabled": false,
+  "town_key_enabled": false
+}

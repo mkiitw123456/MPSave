@@ -10,18 +10,18 @@
   },
   "bindings": {
     "monsters": [
-      "guai/1.png",
-      "guai/10.png",
-      "guai/11.png",
-      "guai/12.png",
-      "guai/2.png",
-      "guai/3.png",
-      "guai/4.png",
-      "guai/5.png",
-      "guai/6.png",
-      "guai/7.png",
-      "guai/8.png",
-      "guai/9.png"
+      "guai/黑肥肥領土2最終版/1.png",
+      "guai/黑肥肥領土2最終版/10.png",
+      "guai/黑肥肥領土2最終版/11.png",
+      "guai/黑肥肥領土2最終版/12.png",
+      "guai/黑肥肥領土2最終版/2.png",
+      "guai/黑肥肥領土2最終版/3.png",
+      "guai/黑肥肥領土2最終版/4.png",
+      "guai/黑肥肥領土2最終版/5.png",
+      "guai/黑肥肥領土2最終版/6.png",
+      "guai/黑肥肥領土2最終版/7.png",
+      "guai/黑肥肥領土2最終版/8.png",
+      "guai/黑肥肥領土2最終版/9.png"
     ]
   },
   "combat": {

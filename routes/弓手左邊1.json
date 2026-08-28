@@ -10,10 +10,10 @@
   },
   "bindings": {
     "monsters": [
-      "guai/1.png",
-      "guai/2.png",
-      "guai/3.png",
-      "guai/4.png"
+      "guai/弓手左邊1/1.png",
+      "guai/弓手左邊1/2.png",
+      "guai/弓手左邊1/3.png",
+      "guai/弓手左邊1/4.png"
     ]
   },
   "combat": {
