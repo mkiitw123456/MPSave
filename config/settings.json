@@ -185,22 +185,28 @@
     "web_refresh_wait_seconds": 5.0,
     "template_regions": {
       "web_allowed_account.png": [
-        792,
-        379,
-        194,
-        49
+        790,
+        369,
+        227,
+        61
       ],
       "web_character.png": [
-        756,
-        485,
-        120,
-        41
+        760,
+        479,
+        225,
+        45
       ],
       "web_continue.png": [
-        772,
-        734,
-        384,
-        31
+        797,
+        730,
+        304,
+        39
+      ],
+      "web_gama_pass.png": [
+        815,
+        545,
+        227,
+        37
       ]
     },
     "fallback_click_seconds": 10.0,
