@@ -2,10 +2,10 @@
   "schema_version": 1,
   "dry_run": false,
   "selected_profile": "default",
-  "selected_route": "C:\\Users\\user\\AppData\\Roaming\\MapleAutoRebuild\\Data\\routes\\弓手左邊1.json",
+  "selected_route": "C:\\Users\\User\\AppData\\Roaming\\MapleAutoRebuild\\Data\\routes\\弓手左邊1.json",
   "window": {
-    "hwnd": 38996070,
-    "pid": 7728,
+    "hwnd": 23401936,
+    "pid": 43432,
     "title": "新楓之谷：經典版",
     "expected_width": 1366,
     "expected_height": 768,
