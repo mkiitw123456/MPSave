@@ -10,19 +10,14 @@
   },
   "bindings": {
     "monsters": [
-      "guai/弓手左邊1/1.png",
-      "guai/弓手左邊1/2.png",
-      "guai/弓手左邊1/3.png",
-      "guai/弓手左邊1/4.png"
+      "guai/弓手左邊1/姑姑仔1.png",
+      "guai/弓手左邊1/姑姑仔2.png",
+      "guai/弓手左邊1/蝸牛1.png",
+      "guai/弓手左邊1/蝸牛2.png"
     ]
   },
   "combat": {
-    "mode": "normal",
-    "heal_key": "d",
-    "heal_range_ratio": 0.4,
-    "transit_pulse_seconds": 0.15,
-    "transit_cooldown_seconds": 0.8,
-    "clear_confirm_seconds": 0.5
+    "mode": "normal"
   },
   "target_points": [
     {
