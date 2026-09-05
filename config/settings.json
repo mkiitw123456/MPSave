@@ -4,8 +4,8 @@
   "selected_profile": "default",
   "selected_route": "C:\\Users\\User\\AppData\\Roaming\\MapleAutoRebuild\\Data\\routes\\弓手左邊1.json",
   "window": {
-    "hwnd": 23401936,
-    "pid": 43432,
+    "hwnd": 1706504,
+    "pid": 36468,
     "title": "新楓之谷：經典版",
     "expected_width": 1366,
     "expected_height": 768,
@@ -98,7 +98,7 @@
     "town_key": "0"
   },
   "status_bar": {
-    "enabled": true,
+    "enabled": false,
     "hp_roi": [
       510,
       782,
