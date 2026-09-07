@@ -4,8 +4,8 @@
   "selected_profile": "default",
   "selected_route": "C:\\Users\\user\\AppData\\Roaming\\MapleAutoRebuild\\Data\\routes\\黑肥肥領土2最終版.json",
   "window": {
-    "hwnd": 14421720,
-    "pid": 28108,
+    "hwnd": 133808,
+    "pid": 30992,
     "title": "新楓之谷：經典版",
     "expected_width": 1366,
     "expected_height": 768,
@@ -57,7 +57,7 @@
     "facing_confirm_frames": 2
   },
   "discord": {
-    "enabled": false,
+    "enabled": true,
     "mention_everyone": true,
     "retry_count": 3,
     "timeout_seconds": 8.0,
@@ -163,6 +163,7 @@
     ]
   },
   "reconnect": {
+    "image_threshold": 0.75,
     "enabled": true,
     "login_url": "https://maplestoryclassic.beanfun.com/Main",
     "game_window_title": "新楓之谷：經典版",
