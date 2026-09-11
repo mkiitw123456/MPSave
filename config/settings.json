@@ -4,8 +4,8 @@
   "selected_profile": "default",
   "selected_route": "C:\\Users\\user\\AppData\\Roaming\\MapleAutoRebuild\\Data\\routes\\黑肥肥領土2最終版.json",
   "window": {
-    "hwnd": 1508672,
-    "pid": 11928,
+    "hwnd": 328220,
+    "pid": 21700,
     "title": "新楓之谷：經典版",
     "expected_width": 1366,
     "expected_height": 768,
@@ -97,6 +97,7 @@
     "town_key_enabled": false,
     "town_key": "0"
   },
+  "buffs": [],
   "status_bar": {
     "enabled": true,
     "hp_roi": [
@@ -117,13 +118,13 @@
     "mp_key": "",
     "cooldown_seconds": 1.0,
     "hp_safe_point": [
-      560,
-      755
+      532,
+      757
     ],
     "hp_safe_rgb": [
-      238,
-      0,
-      0
+      157,
+      8,
+      5
     ],
     "hp_color_tolerance": 35,
     "hp_safe_ratio": 0.6,
