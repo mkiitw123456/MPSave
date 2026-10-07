@@ -1,0 +1,18 @@
+{
+  "schema_version": 2,
+  "name": "弓手左邊1",
+  "draft": true,
+  "image": "弓手左邊1_minimap.png",
+  "minimap_region": {
+    "x": 26,
+    "y": 63,
+    "width": 152,
+    "height": 134
+  },
+  "bindings": {
+    "monsters": []
+  },
+  "target_points": [],
+  "segments": [],
+  "topology": null
+}
