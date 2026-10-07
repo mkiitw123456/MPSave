@@ -1,7 +1,6 @@
 {
   "schema_version": 2,
   "name": "弓手左邊1",
-  "draft": true,
   "image": "弓手左邊1_minimap.png",
   "minimap_region": {
     "x": 26,
@@ -12,7 +11,76 @@
   "bindings": {
     "monsters": []
   },
-  "target_points": [],
-  "segments": [],
+  "combat": {
+    "mode": "normal"
+  },
+  "route_plan": {
+    "normal_goals": [],
+    "branches": []
+  },
+  "target_points": [
+    {
+      "x": 35.305,
+      "y": 109.204,
+      "display_x": 35,
+      "display_y": 109
+    },
+    {
+      "x": 120.928,
+      "y": 109.605,
+      "display_x": 121,
+      "display_y": 110
+    }
+  ],
+  "segments": [
+    {
+      "type": "patrol",
+      "x_tolerance": 3.0,
+      "y_tolerance": 4.0,
+      "combat_policy": "clear",
+      "walk_down_direction": "auto",
+      "jump_hold_seconds": 0.1,
+      "up_delay_seconds": 0.04,
+      "attach_timeout_seconds": 0.8,
+      "minimum_progress": 3.0,
+      "rope_launch_x_range": 4.0,
+      "rope_x_tolerance": 5.0,
+      "exit_mode": "auto",
+      "retry_limit": 10,
+      "direction_hold_seconds": 0.35,
+      "screen_rope_x_tolerance": 4.0,
+      "screen_rope_threshold": 0.45,
+      "screen_rope_launch_distance": 70.0,
+      "screen_rope_stable_frames": 3,
+      "screen_rope_required": false,
+      "rope_launch_offset_x": 0.0,
+      "from": 0,
+      "to": 1
+    },
+    {
+      "type": "patrol",
+      "x_tolerance": 3.0,
+      "y_tolerance": 4.0,
+      "combat_policy": "clear",
+      "walk_down_direction": "auto",
+      "jump_hold_seconds": 0.1,
+      "up_delay_seconds": 0.04,
+      "attach_timeout_seconds": 0.8,
+      "minimum_progress": 3.0,
+      "rope_launch_x_range": 4.0,
+      "rope_x_tolerance": 5.0,
+      "exit_mode": "auto",
+      "retry_limit": 10,
+      "direction_hold_seconds": 0.35,
+      "screen_rope_x_tolerance": 4.0,
+      "screen_rope_threshold": 0.45,
+      "screen_rope_launch_distance": 70.0,
+      "screen_rope_stable_frames": 3,
+      "screen_rope_required": false,
+      "rope_launch_offset_x": 0.0,
+      "from": 1,
+      "to": 0
+    }
+  ],
   "topology": null
 }

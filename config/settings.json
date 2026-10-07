@@ -2,10 +2,10 @@
   "schema_version": 1,
   "dry_run": false,
   "selected_profile": "default",
-  "selected_route": "C:\\Users\\user\\AppData\\Roaming\\MapleAutoRebuild\\Data\\routes\\黑肥肥領土2最終版.json",
+  "selected_route": "C:\\Users\\user\\AppData\\Roaming\\MapleAutoRebuild\\Data\\routes\\弓手左邊1.json",
   "window": {
-    "hwnd": 2951108,
-    "pid": 32692,
+    "hwnd": 526502,
+    "pid": 36816,
     "title": "MapleStory",
     "expected_width": 1366,
     "expected_height": 768,
@@ -99,7 +99,7 @@
   },
   "buffs": [],
   "status_bar": {
-    "enabled": true,
+    "enabled": false,
     "hp_roi": [
       510,
       782,
@@ -167,7 +167,7 @@
     "image_threshold": 0.75,
     "enabled": true,
     "login_url": "https://maplestoryclassic.beanfun.com/Main",
-    "game_window_title": "新楓之谷：經典版",
+    "game_window_title": "MapleStory",
     "required_account_text": "a****2@gmail.com",
     "forbidden_account_text": "n****0@gmail.com",
     "character_name": "MrAirWolf",
