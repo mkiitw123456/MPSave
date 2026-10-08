@@ -97,7 +97,16 @@
     "town_key_enabled": false,
     "town_key": "0"
   },
-  "buffs": [],
+  "buffs": [
+    {
+      "name": "Buff",
+      "key": "c",
+      "interval_seconds": 240.0,
+      "enabled": true,
+      "hold_seconds": 0.12,
+      "settle_seconds": 0.5
+    }
+  ],
   "status_bar": {
     "enabled": false,
     "hp_roi": [
