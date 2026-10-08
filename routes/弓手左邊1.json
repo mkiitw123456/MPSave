@@ -9,7 +9,12 @@
     "height": 134
   },
   "bindings": {
-    "monsters": []
+    "monsters": [
+      "guai/弓手左邊1/姑姑仔1.png",
+      "guai/弓手左邊1/姑姑仔2.png",
+      "guai/弓手左邊1/蝸牛1.png",
+      "guai/弓手左邊1/蝸牛2.png"
+    ]
   },
   "combat": {
     "mode": "normal"
