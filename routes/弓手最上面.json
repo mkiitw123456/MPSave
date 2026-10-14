@@ -1,0 +1,259 @@
+{
+  "schema_version": 3,
+  "name": "弓手最上面",
+  "image": "弓手最上面_minimap.png",
+  "minimap_region": {
+    "x": 6,
+    "y": 66,
+    "width": 198,
+    "height": 133
+  },
+  "bindings": {
+    "monsters": [
+      "guai/弓手最上面/木妖右.png",
+      "guai/弓手最上面/木妖左.png",
+      "guai/弓手最上面/綠姑姑右.png",
+      "guai/弓手最上面/綠姑姑左.png"
+    ]
+  },
+  "combat": {
+    "mode": "normal"
+  },
+  "route_plan": {
+    "normal_goals": [],
+    "branches": []
+  },
+  "target_points": [
+    {
+      "x": 92.0,
+      "y": 56.0,
+      "display_x": 92,
+      "display_y": 56
+    },
+    {
+      "x": 103.0,
+      "y": 56.0,
+      "display_x": 103,
+      "display_y": 56
+    }
+  ],
+  "segments": [
+    {
+      "type": "patrol",
+      "x_tolerance": 3.0,
+      "y_tolerance": 4.0,
+      "combat_policy": "clear",
+      "walk_down_direction": "auto",
+      "jump_hold_seconds": 0.1,
+      "up_delay_seconds": 0.04,
+      "attach_timeout_seconds": 0.8,
+      "minimum_progress": 3.0,
+      "rope_launch_x_range": 4.0,
+      "rope_x_tolerance": 5.0,
+      "exit_mode": "auto",
+      "retry_limit": 10,
+      "direction_hold_seconds": 0.35,
+      "screen_rope_x_tolerance": 4.0,
+      "screen_rope_threshold": 0.45,
+      "screen_rope_launch_distance": 70.0,
+      "screen_rope_stable_frames": 3,
+      "screen_rope_required": false,
+      "rope_launch_offset_x": 0.0,
+      "from": 0,
+      "to": 1
+    },
+    {
+      "type": "patrol",
+      "x_tolerance": 3.0,
+      "y_tolerance": 4.0,
+      "combat_policy": "clear",
+      "walk_down_direction": "auto",
+      "jump_hold_seconds": 0.1,
+      "up_delay_seconds": 0.04,
+      "attach_timeout_seconds": 0.8,
+      "minimum_progress": 3.0,
+      "rope_launch_x_range": 4.0,
+      "rope_x_tolerance": 5.0,
+      "exit_mode": "auto",
+      "retry_limit": 10,
+      "direction_hold_seconds": 0.35,
+      "screen_rope_x_tolerance": 4.0,
+      "screen_rope_threshold": 0.45,
+      "screen_rope_launch_distance": 70.0,
+      "screen_rope_stable_frames": 3,
+      "screen_rope_required": false,
+      "rope_launch_offset_x": 0.0,
+      "from": 1,
+      "to": 0
+    }
+  ],
+  "topology": {
+    "platforms": [
+      {
+        "id": "p1",
+        "x1": 73.0,
+        "x2": 111.0,
+        "y": 56.0,
+        "trace": [
+          {
+            "x": 111.0,
+            "y": 56.0
+          },
+          {
+            "x": 110.0,
+            "y": 56.0
+          },
+          {
+            "x": 109.0,
+            "y": 56.0
+          },
+          {
+            "x": 107.0,
+            "y": 56.0
+          },
+          {
+            "x": 106.0,
+            "y": 56.0
+          },
+          {
+            "x": 105.0,
+            "y": 56.0
+          },
+          {
+            "x": 104.0,
+            "y": 56.0
+          },
+          {
+            "x": 103.0,
+            "y": 56.0
+          },
+          {
+            "x": 102.0,
+            "y": 56.0
+          },
+          {
+            "x": 101.0,
+            "y": 56.0
+          },
+          {
+            "x": 100.0,
+            "y": 56.0
+          },
+          {
+            "x": 98.0,
+            "y": 56.0
+          },
+          {
+            "x": 97.0,
+            "y": 56.0
+          },
+          {
+            "x": 96.0,
+            "y": 56.0
+          },
+          {
+            "x": 95.0,
+            "y": 56.0
+          },
+          {
+            "x": 94.0,
+            "y": 55.0
+          },
+          {
+            "x": 94.0,
+            "y": 56.0
+          },
+          {
+            "x": 93.0,
+            "y": 56.0
+          },
+          {
+            "x": 92.0,
+            "y": 56.0
+          },
+          {
+            "x": 91.0,
+            "y": 56.0
+          },
+          {
+            "x": 90.0,
+            "y": 56.0
+          },
+          {
+            "x": 89.0,
+            "y": 56.0
+          },
+          {
+            "x": 87.0,
+            "y": 56.0
+          },
+          {
+            "x": 86.0,
+            "y": 56.0
+          },
+          {
+            "x": 85.0,
+            "y": 56.0
+          },
+          {
+            "x": 84.0,
+            "y": 56.0
+          },
+          {
+            "x": 83.0,
+            "y": 56.0
+          },
+          {
+            "x": 82.0,
+            "y": 56.0
+          },
+          {
+            "x": 81.0,
+            "y": 56.0
+          },
+          {
+            "x": 80.0,
+            "y": 56.0
+          },
+          {
+            "x": 78.0,
+            "y": 56.0
+          },
+          {
+            "x": 77.0,
+            "y": 56.0
+          },
+          {
+            "x": 76.0,
+            "y": 56.0
+          },
+          {
+            "x": 74.0,
+            "y": 56.0
+          },
+          {
+            "x": 73.0,
+            "y": 56.0
+          }
+        ]
+      }
+    ],
+    "ropes": [],
+    "jumps": [],
+    "recorded_moves": [],
+    "goals": [
+      {
+        "x": 92.0,
+        "y": 56.0,
+        "display_x": 92,
+        "display_y": 56
+      },
+      {
+        "x": 103.0,
+        "y": 56.0,
+        "display_x": 103,
+        "display_y": 56
+      }
+    ]
+  }
+}

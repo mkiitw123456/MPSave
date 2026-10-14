@@ -1,0 +1,172 @@
+{
+  "version": "20261007-225430-newclient",
+  "created_at": "2026-10-07T22:54:30.603358",
+  "mode": "facing",
+  "status": "validated",
+  "validation_passed": true,
+  "source_video": "E:/\u5f71\u7247\u9304\u88fd/\u9304\u88fd_2026_10_07_21_33_12_425.mp4",
+  "split_policy": "train 0-89s; val 96-113s; test 120-136s; 6s gaps",
+  "dataset": "F:\\MapleAutoRebuildSource\\diagnostics\\training_20261007\\facing",
+  "scope": "single recording, one map; no cross-map guarantee",
+  "annotations": "Manually reviewed avatar orientation; uncertain poses excluded; no temporal label inference",
+  "metrics": {
+    "val": {
+      "metrics/precision(B)": 0.9909369933709828,
+      "metrics/recall(B)": 1.0,
+      "metrics/mAP50(B)": 0.995,
+      "metrics/mAP50-95(B)": 0.9950000000000001,
+      "fitness": 0.9950000000000001,
+      "class_names": {
+        "0": "left",
+        "1": "right"
+      },
+      "class_map50": [
+        0.995,
+        0.995
+      ],
+      "class_recall": [
+        1.0,
+        1.0
+      ]
+    },
+    "test": {
+      "metrics/precision(B)": 0.9935391004505499,
+      "metrics/recall(B)": 0.9817780757249996,
+      "metrics/mAP50(B)": 0.995,
+      "metrics/mAP50-95(B)": 0.9717500000000001,
+      "fitness": 0.9717500000000001,
+      "class_names": {
+        "0": "left",
+        "1": "right"
+      },
+      "class_map50": [
+        0.995,
+        0.995
+      ],
+      "class_recall": [
+        1.0,
+        0.9635561514499993
+      ]
+    }
+  },
+  "runtime_validation": {
+    "passed": true,
+    "total": 16,
+    "correct": 16,
+    "rows": [
+      {
+        "image": "frame_120.png",
+        "expected": 1,
+        "predicted": 1,
+        "score": 0.92626953125,
+        "correct": true
+      },
+      {
+        "image": "frame_121.png",
+        "expected": 0,
+        "predicted": 0,
+        "score": 0.896484375,
+        "correct": true
+      },
+      {
+        "image": "frame_123.png",
+        "expected": 0,
+        "predicted": 0,
+        "score": 0.900390625,
+        "correct": true
+      },
+      {
+        "image": "frame_124.png",
+        "expected": 1,
+        "predicted": 1,
+        "score": 0.9365234375,
+        "correct": true
+      },
+      {
+        "image": "frame_125.png",
+        "expected": 1,
+        "predicted": 1,
+        "score": 0.904296875,
+        "correct": true
+      },
+      {
+        "image": "frame_126.png",
+        "expected": 1,
+        "predicted": 1,
+        "score": 0.90576171875,
+        "correct": true
+      },
+      {
+        "image": "frame_127.png",
+        "expected": 0,
+        "predicted": 0,
+        "score": 0.92041015625,
+        "correct": true
+      },
+      {
+        "image": "frame_128.png",
+        "expected": 0,
+        "predicted": 0,
+        "score": 0.8818359375,
+        "correct": true
+      },
+      {
+        "image": "frame_129.png",
+        "expected": 1,
+        "predicted": 1,
+        "score": 0.90185546875,
+        "correct": true
+      },
+      {
+        "image": "frame_130.png",
+        "expected": 0,
+        "predicted": 0,
+        "score": 0.8994140625,
+        "correct": true
+      },
+      {
+        "image": "frame_131.png",
+        "expected": 0,
+        "predicted": 0,
+        "score": 0.8994140625,
+        "correct": true
+      },
+      {
+        "image": "frame_132.png",
+        "expected": 0,
+        "predicted": 0,
+        "score": 0.8818359375,
+        "correct": true
+      },
+      {
+        "image": "frame_133.png",
+        "expected": 0,
+        "predicted": 0,
+        "score": 0.89697265625,
+        "correct": true
+      },
+      {
+        "image": "frame_134.png",
+        "expected": 0,
+        "predicted": 0,
+        "score": 0.88330078125,
+        "correct": true
+      },
+      {
+        "image": "frame_135.png",
+        "expected": 0,
+        "predicted": 0,
+        "score": 0.91796875,
+        "correct": true
+      },
+      {
+        "image": "frame_136.png",
+        "expected": 0,
+        "predicted": 0,
+        "score": 0.88427734375,
+        "correct": true
+      }
+    ],
+    "scope": "Single video, held-out time block. Not cross-map/costume validation."
+  }
+}
