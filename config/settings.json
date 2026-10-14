@@ -2,7 +2,7 @@
   "schema_version": 1,
   "dry_run": false,
   "selected_profile": "default",
-  "selected_route": "C:\\Users\\user\\AppData\\Roaming\\MapleAutoRebuildOwner\\Data\\routes\\弓手左邊1.json",
+  "selected_route": "C:\\Users\\user\\AppData\\Roaming\\MapleAutoRebuildOwner\\Data\\routes\\弓手最上面.json",
   "window": {
     "hwnd": 331570,
     "pid": 3020,
@@ -28,8 +28,8 @@
     "red_tolerance": 18
   },
   "combat": {
-    "movement_mode": "patrol",
-    "stationary_x_tolerance": 2.0,
+    "movement_mode": "stationary",
+    "stationary_x_tolerance": 4.0,
     "attack_key": "a",
     "jump_key": "x",
     "pickup_key": "z",
@@ -55,7 +55,7 @@
     "lightbulb_offset_y": 65,
     "lightbulb_hold_seconds": 1.0,
     "character_tracking_enabled": false,
-    "character_confidence_threshold": 0.75,
+    "character_confidence_threshold": 0.55,
     "character_offset_x": 0,
     "character_offset_y": 40,
     "facing_ai_enabled": true,
@@ -115,7 +115,7 @@
   ],
   "quantities": [],
   "status_bar": {
-    "enabled": false,
+    "enabled": true,
     "hp_roi": [
       510,
       782,
@@ -134,13 +134,13 @@
     "mp_key": "",
     "cooldown_seconds": 1.0,
     "hp_safe_point": [
-      532,
-      757
+      553,
+      758
     ],
     "hp_safe_rgb": [
-      157,
+      206,
       8,
-      5
+      0
     ],
     "hp_color_tolerance": 35,
     "hp_safe_ratio": 0.6,
