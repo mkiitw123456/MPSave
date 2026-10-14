@@ -29,7 +29,7 @@
   },
   "combat": {
     "movement_mode": "stationary",
-    "stationary_x_tolerance": 4.0,
+    "stationary_x_tolerance": 6.0,
     "attack_key": "a",
     "jump_key": "x",
     "pickup_key": "z",
@@ -42,6 +42,8 @@
     "attack_hold_seconds": 0.5,
     "skill_lock_seconds": 0.55,
     "turn_confirm_seconds": 0.08,
+    "turn_release_seconds": 0.947,
+    "turn_timing_calibrated": true,
     "detection_interval_seconds": 0.017,
     "face_hold_seconds": 0.12,
     "target_lost_seconds": 1.0,
