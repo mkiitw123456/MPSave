@@ -14,9 +14,9 @@
     "confirmed": true
   },
   "minimap": {
-    "x": 43,
-    "y": 68,
-    "width": 105,
+    "x": 46,
+    "y": 70,
+    "width": 102,
     "height": 106,
     "unavailable_timeout_seconds": 10.0,
     "red_min_area": 25,
@@ -30,7 +30,7 @@
   },
   "combat": {
     "movement_mode": "stationary",
-    "stationary_x_tolerance": 6.0,
+    "stationary_x_tolerance": 4.0,
     "attack_key": "a",
     "jump_key": "x",
     "pickup_key": "z",
